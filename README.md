@@ -23,6 +23,8 @@ This repository serves as a supplementary resource for our survey paper on Categ
 
 We will continue to maintain and update this repository with new papers and resources as the field evolves. Contributions are welcome, and we encourage pull requests (PRs) to help expand and improve the content for the community.
 
+**Literature update: November 2, 2026.** This update adds papers with verified conference or journal publication records, using official proceedings, conference paper pages, or publisher records as sources. Existing preprints remain explicitly marked as such.
+
 
 ## Table of Contents
 
@@ -166,19 +168,28 @@ Notably, an equivalent formulation has been introduced by [Cao *etal.*](https://
 |      | [AFGCD](https://openaccess.thecvf.com/content/ICCV2025/papers/Xu_A_Hidden_Stumbling_Block_in_Generalized_Category_Discovery_Distracted_Attention_ICCV_2025_paper.pdf) | *ICCV* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft, Herb19 |
 | 2026 | [SpectralGCD](https://openreview.net/forum?id=PyfV9tFmdR) | *ICLR* | CLIP ViT | Parametric Classifier | Known | CIFAR-100, ImageNet-100, CUB, Scars, Aircraft, Herb19 |
 |      | [BIA](https://openreview.net/forum?id=nfVKTJ1MJ3) | *ICLR* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft, Herb19 |
-|      | [CPF-GCD](https://arxiv.org/abs/2607.00620) | *ICML* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft |
-|      | [PartCo](https://arxiv.org/abs/2509.22769) | *ICML* | DINO ViT | Base-method dependent | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft |
-|      | [CoGe-GCD](https://lytang63.github.io/) | *ICML* | — | — | — | — |
+|      | [CPF-GCD](https://icml.cc/virtual/2026/poster/62711) | *ICML* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft |
+|      | [PartCo](https://icml.cc/virtual/2026/poster/63813) | *ICML* | DINO ViT | Base-method dependent | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft |
+|      | [CoGe-GCD](https://icml.cc/virtual/2026/poster/63315 "CoGe-GCD: Reframing Generalized Category Discovery with Compositional Generalization") | *ICML* | ViT | Base-method dependent | Base-method dependent | CIFAR-10&100, ImageNet-100, SSB |
 |      | [EAGC](https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_The_Devil_Is_in_Gradient_Entanglement_Energy-Aware_Gradient_Coordinator_for_CVPR_2026_paper.pdf) | *CVPR* | ViT | Parametric Classifier | Known | CIFAR-100, ImageNet-100, CUB, Scars, Aircraft, Herb19 |
 |      | [ATCG](https://openaccess.thecvf.com/content/CVPR2026/papers/Han_Learning_Like_Humans_Analogical_Concept_Learning_for_Generalized_Category_Discovery_CVPR_2026_paper.pdf) | *CVPR* | CLIP ViT | Parametric / Semi-k-Means | Known | CIFAR-100, ImageNet-100, CUB, Scars, Aircraft, Herb19 |
 |      | [TAR](https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_TAR_Token-Aware_Refinement_for_Fine-grained_Generalized_Category_Discovery_CVPR_2026_paper.pdf) | *CVPR* | ViT, CLIP ViT | Parametric Classifier | Known | CUB, Scars, Aircraft, Herb19, ImageNet-1K |
 |      | [OmniGCD](https://openaccess.thecvf.com/content/CVPR2026F/papers/Shipard_OmniGCD_Abstracting_Generalized_Category_Discovery_for_Modality_Agnosticism_CVPRF_2026_paper.pdf) | *CVPRF* | Multi-modal Encoders | $k$-Means | $k$-Means | 16 vision, text, audio, and remote-sensing datasets |
+|      | [SSR2-GCD](https://openaccess.thecvf.com/content/CVPR2026/html/He_Multi-Modal_Representation_Learning_via_Semi-Supervised_Rate_Reduction_for_Generalized_Category_CVPR_2026_paper.html "Multi-Modal Representation Learning via Semi-Supervised Rate Reduction for Generalized Category Discovery") | *CVPR* | CLIP ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100&1K, CUB, Scars, Oxford Pets, Flowers102 |
+|      | [CURE](https://icml.cc/virtual/2026/poster/64944 "CURE: Consistency-under-Unified Semantic Regularization for Generalized Category Discovery") | *ICML* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, SSB, Herb19 |
+|      | [RCA](https://icml.cc/virtual/2026/poster/60477 "Reliable Confidence Alignment for Generalized Category Discovery") | *ICML* | Base-method dependent | Parametric Classifier | Base-method dependent | CIFAR-10&100, ImageNet-100, CUB, Scars, Aircraft |
+|      | [HVGCD](https://eccv.ecva.net/virtual/2026/poster/4898 "HVGCD: Rethinking Generalized Category Discovery through Hypothesis–Verification") | *ECCV* | ViT (DINO / DINOv2) | Base-method dependent | Known | CIFAR-10&100, ImageNet-100, SSB, Herb19 |
+|      | [FourEx / FourSim](https://eccv.ecva.net/virtual/2026/poster/5739 "Fourier Self-Supervision for Fine-Grained Generalized Category Discovery") | *ECCV* | ViT (DINO / DINOv2) | Base-method dependent | Known / $k$-Means | CIFAR-10&100, ImageNet-100, SSB, Herb19, Oxford Pets |
+|      | [CloSeR](https://eccv.ecva.net/virtual/2026/poster/3386 "CloSeR: Unified Relational Distillation from Closed-Set Teachers for Category Discovery") | *ECCV* | ViT (DINO / DINOv2) | Base-method dependent | Known | CIFAR-10&100, ImageNet-100, SSB |
+|      | [MGCE](https://link.springer.com/article/10.1007/s11263-026-02970-5 "Generalized Fine-Grained Category Discovery with Multi-Granularity Conceptual Experts") | *IJCV* | ViT | Parametric Classifier / Semi-Infomap | Known / Semi-Infomap | CIFAR-100, ImageNet-100, CUB, Scars, NABirds, Herb19, iNaturalist |
+|      | [MCDL](https://link.springer.com/article/10.1007/s11263-026-02745-y "Memory Consistency Guided Divide-and-Conquer Learning for Generalized Category Discovery") | *IJCV* | ViT | Parametric Classifier | Known | CIFAR-10&100, ImageNet-100, SSB, Herb19 |
 | PrePrint | [CLIP-GCD](https://arxiv.org/abs/2305.10420) | *ArXiv* | ViT  | Semi-k-Means           | $k$-Means               | CIFAR-10&100, ImageNet-100, -1K, SSB, Flowers102, DomainNet                                  |
-|          | [MCDL](https://arxiv.org/abs/2401.13325) | *ArXiv* | ViT         | Parametric Classifier     | Known                   | CIFAR-10&100, ImageNet-100, -1K, CUB, SCars, Herb19                                           |
 |          | [PNP](https://arxiv.org/abs/2404.08995)   | *ArXiv*    | ViT            | Infomap                 | Infomap                 | CIFAR-10&100, ImageNet-100, -1K, SSB, Herb19                                                  |
 |          | [RPIM](https://arxiv.org/abs/2405.20711) | *ArXiv* | ViT  | Parametric Classifier     | Known                   | CIFAR-10&100, ImageNet-100, -1K, CUB, Scars, Herb19                                           |
 |          | [OpenGCD](https://arxiv.org/abs/2308.06926) | *ArXiv*  | ViT  | Parametric Classifier     | $k$-Means               | CIFAR-10&100, CUB                                                                                |
 
+
+For plug-in methods, **Base-method dependent** means the backbone, label-assignment rule, or category-count handling is inherited from the host method. **Known / ...** indicates that both a known category count and the stated estimation procedure are evaluated.
 
 ### Continual Category Discovery (CCD)
 
@@ -208,6 +219,8 @@ Finally, in the *Semi-Supervised Mixed Incremental Scenario*, $`\mathcal{D}_{\ma
 | 2026   | [PRISM](https://iclr.cc/virtual/2026/poster/10011480) | *ICLR* | ViT | Open-World Continual | Parametric Classifier | Affinity Propagation | SSB-C, DomainNet |
 |        | [DYDM](https://openaccess.thecvf.com/content/CVPR2026/papers/Yu_Decouple_Your_Discovery_and_Memory_in_Continual_Generalized_Category_Discovery_CVPR_2026_paper.pdf) | *CVPR* | ViT | Mixed Incremental | Analytic Classifier | Known | CIFAR-100, TinyImageNet, ImageNet-100, CUB |
 |        | [OCCD](https://openaccess.thecvf.com/content/CVPR2026/papers/Feng_Beyond_the_Static_World_Continual_Category_Discovery_under_Visual_Drift_CVPR_2026_paper.pdf) | *CVPR* | ViT | Open Continual | Parametric Classifier | Affinity Propagation | SSB-C, DomainNet |
+|      | [FaE](https://ojs.aaai.org/index.php/AAAI/article/view/37530 "Learning a Fix and Explore Framework for Continuous Generalized Category Discovery") | *AAAI* | ViT | Mixed Incremental | Parametric Classifier | Known / Silhouette Score | CIFAR-100, ImageNet-100, TinyImageNet, CUB |
+|      | [VC-CGCD](https://eccv.ecva.net/virtual/2026/poster/5208 "Virtual Category-Guided Continual Generalized Category Discovery") | *ECCV* | ViT | Mixed Incremental | Parametric Classifier | Known | CIFAR-100, ImageNet-100, TinyImageNet |
 | Preprint| [FEA](https://arxiv.org/abs/2405.06389)                         | *ArXiv*  | ViT               | Class Incremental       | Parametric Classifier     | Known                   | CIFAR-10/100, TinyImageNet                 |
 
 ### On-the-fly Category Discovery (OCD)
@@ -221,6 +234,8 @@ OCD extends conventional category discovery to an inductive learning paradigm wi
 | 2025 | [GRE](https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Generate_Refine_and_Encode_Leveraging_Synthesized_Novel_Samples_for_On-the-Fly_ICCV_2025_paper.pdf) | *ICCV* | ViT | Hash / Prototype-based | Dynamic Prototypes | CUB, Scars, Oxford Pets, iNaturalist |
 | 2026 | [TALON](https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_TALON_Test-time_Adaptive_Learning_for_On-the-Fly_Category_Discovery_CVPR_2026_paper.pdf) | *CVPR* | ViT | Dynamic Prototypes | Threshold-based | CIFAR-10&100, ImageNet-100, CUB, Scars, Oxford Pets, Food-101 |
 |      | [LTC](https://openaccess.thecvf.com/content/CVPR2026F/papers/Zhang_Learning_through_Creation_A_Hash-Free_Framework_for_On-the-Fly_Category_Discovery_CVPRF_2026_paper.pdf) | *CVPRF* | ViT | Dynamic Prototypes | Threshold-based | CIFAR-10&100, ImageNet-100, CUB, Scars, Oxford Pets, Food-101 |
+|      | [Yang *etal.*](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Assignment-Driven_Hash_Learning_in_a_Hyper-Semantic_Space_for_On-the-Fly_Category_CVPR_2026_paper.html "Assignment-Driven Hash Learning in a Hyper-Semantic Space for On-the-Fly Category Discovery") | *CVPR* | ViT | Hash-based (SMILE / PHE) | Hash / Hamming Ball-Based | CUB, Scars, Oxford Pets, iNaturalist |
+|      | [DP-BOA](https://eccv.ecva.net/virtual/2026/poster/4517 "DP-BOA: Dirichlet-Process Birth-or-Assign for On-the-Fly Category Discovery") | *ECCV* | ViT | Posterior-Predictive Assignment | Dirichlet-Process Mixture | CIFAR-100, ImageNet-100, CUB, Scars, Herb19, Oxford Pets, iNaturalist |
 
 ### Category Discovery with domain shift
 
@@ -237,6 +252,7 @@ This setting relaxes the conventional assumption that both labelled and unlabell
 |     | [DG2CD-Net](https://openaccess.thecvf.com/content/CVPR2025/papers/Rathore_When_Domain_Generalization_meets_Generalized_Category_Discovery_An_Adaptive_Task-Arithmetic_CVPR_2025_paper.pdf) | *CVPR* | ViT | Unseen Target Domains | $k$-Means | $k$-Means | PACS, OfficeHome, DomainNet | $ \neq \varnothing $ |
 |     | [HiDISC](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8f6b3692297e49e5d5c91ba00281379c-Abstract-Conference.html) | *NeurIPS* | ViT | Unseen Target Domains | $k$-Means | $k$-Means | PACS, OfficeHome, DomainNet | $ \neq \varnothing $ |
 |     | [FREE](https://openreview.net/forum?id=uUBQ96zs48) | *NeurIPS* | ViT | Multiple New Domains | Parametric Classifier | Affinity Propagation | SSB-C, DomainNet | $ \neq \varnothing $ |
+| 2026 | [CausalGCD](https://openaccess.thecvf.com/content/CVPR2026/html/Feng_Seeing_Through_the_Shift_Causality-Inspired_Robust_Generalized_Category_Discovery_CVPR_2026_paper.html "Seeing Through the Shift: Causality-Inspired Robust Generalized Category Discovery") | *CVPR* | ViT | Single / Multiple New Domains | Parametric Classifier | Known / $k$-Means | SSB-C, DomainNet | $ \neq \varnothing $ |
 | ArXiv       | [Wang *etal.*](https://arxiv.org/abs/2406.18140)                 | *ArXiv*  | ViT  | Single New Domain             | Parametric Classifier | Known                   | CIFAR-10, OfficeHome, DomainNet                   | $ \varnothing $                       |
 
 
@@ -264,6 +280,7 @@ In contrast to NCD and GCD, which focus solely on grouping visually similar imag
 | 2024  | [SCD](https://arxiv.org/abs/2304.02364)                                  | *CVPRW*  | ViT            | ~Open                           | KMeans+Top-k Voting    | Known                   | ImageNet-100&1K, SCars, CUB                 |
 |       | [SNCD](https://ojs.aaai.org/index.php/AAAI/article/view/28371)                                     | *AAAI*   | ResNet           | Base + Novel Categories | Parametric Classifier    | Known                   | CIFAR-10&100, ImageNet-100                  |
 | 2026  | [LACD](https://openaccess.thecvf.com/content/CVPR2026F/papers/Bian_Label-Agnostic_Category_Discovery_CVPRF_2026_paper.pdf) | *CVPRF* | ViT | ImageNet-1K / Open Images Lexicon | Adaptive Classifier Assembly | Prototype-Centroid Alignment | CUB, Oxford Pets, Flowers102, Food-101, Caltech256, MIT Indoor |
+|      | [SECOS](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_SECOS_Semantic_Capture_for_Rigorous_Classification_in_Open-World_Semi-Supervised_Learning_CVPR_2026_paper.html "SECOS: Semantic Capture for Rigorous Classification in Open-World Semi-Supervised Learning") | *CVPR* | CLIP ViT | Base + Novel Category Names | Image-Text Similarity | Known | CIFAR-10&100, ImageNet-100, CUB, Scars, Flowers102, Oxford Pets |
 
 ### Few-Shots Category Discovery (FS-CD)
 
